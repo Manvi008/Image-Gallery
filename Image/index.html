@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Filters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('architecture')">Architecture</button>
+        <button onclick="filterImages('animals')">Animals</button>
+    </div>
+    
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <div class="gallery-item nature"><img src="nature-3082832_960_720.jpg" alt="Nature Image 1"></div>
+        <div class="gallery-item nature"><img src="nature-jpg-format-download-1920x1200-wallpaper-preview.jpg" alt="Nature Image 2"></div>
+        <div class="gallery-item architecture"><img src="images.jpg" alt="Architecture Image 1"></div>
+        <div class="gallery-item architecture"><img src="pngtree-3d-illustration-of-architectural-sketch-for-a-residential-building-image_3797105.jpg" alt="Architecture Image 2"></div>
+        <div class="gallery-item animals"><img src="animal.jpg" alt="Animals Image 1"></div>
+        <div class="gallery-item animals"><img src="photo-1474511320723-9a56873867b5.jpg" alt="Animals Image 2"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
